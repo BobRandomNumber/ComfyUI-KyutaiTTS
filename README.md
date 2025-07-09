@@ -68,13 +68,9 @@ An example workflow is provided in the `example_workflows` directory.
 *   **`FileNotFoundError`**: Ensure that the `model_path` selected in the node points to the correct directory containing all required model files. Also, verify that your voice models are correctly placed and accessible by ComfyUI.
 *   **General Issues**: Always restart ComfyUI after making changes to custom nodes or model paths. Check the ComfyUI console for any error messages or warnings.
 
-## License
-
-This node pack integrates the Kyutai TTS model. Please refer to the original Kyutai TTS project's licensing information for details regarding the model and its components.
-
 ## Attribution
 
-This custom node utilizes the Kyutai TTS model.
+This custom node utilizes the Kyutai TTS model and moshi.
 
 *   **Original Moshi Source:** [https://github.com/kyutai-labs/moshi/tree/main/moshi](https://github.com/kyutai-labs/moshi/tree/main/moshi)
 *   **Kyutai TTS Model (1.6B en_fr):** [https://huggingface.co/kyutai/tts-1.6b-en_fr](https://huggingface.co/kyutai/tts-1.6b-en_fr)
