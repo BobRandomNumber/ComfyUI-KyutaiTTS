@@ -79,7 +79,8 @@ This custom node utilizes the Kyutai TTS model and moshi.
 ## Citation
 
 @techreport{kyutai2024moshi,
-    author = {Alexandre D\'efossez and Laurent Mazar\'e and Manu Orsini and Am\'elie Royer and Patrick P\'erez and Herv\'e J\'egou and Edouard Grave and Neil Zeghidour},
+    author = {Alexandre D\'efossez and Laurent Mazar\'e and Manu Orsini and Am\'elie Royer and
+			  Patrick P\'erez and Herv\'e J\'egou and Edouard Grave and Neil Zeghidour},
     title = {Moshi: a speech-text foundation model for real-time dialogue},
     institution = {Kyutai},
     year={2024},
