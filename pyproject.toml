@@ -1,0 +1,16 @@
+[project]
+name = "kyutaitts"
+description = ""
+version = "0.1.0"
+license = {file = "LICENSE"}
+dependencies = ["sphn<0.2"]
+
+[project.urls]
+Repository = "https://github.com/BobRandomNumber/ComfyUI-KyutaiTTS"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = "bobrandomnumber"
+DisplayName = "ComfyUI-KyutaiTTS"
+Icon = ""
+includes = []
