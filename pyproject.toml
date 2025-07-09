@@ -1,6 +1,6 @@
 [project]
 name = "kyutaitts"
-description = ""
+description = "A non real-time ComfyUI implementation of Kyutai TTS"
 version = "0.1.0"
 license = {file = "LICENSE"}
 dependencies = ["sphn<0.2"]
