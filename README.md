@@ -2,7 +2,7 @@
 
 
 A custom node for ComfyUI that allows TTS generation with the [Kyutai TTS 1.6b en_fr model](https://huggingface.co/kyutai/tts-1.6b-en_fr) using [Kyutai offered voice models.](https://huggingface.co/kyutai/tts-voices)
-The model's intended use is [https://github.com/kyutai-labs/delayed-streams-modeling](https://github.com/kyutai-labs/delayed-streams-modeling)which is not implemented here.
+The model's intended use is [https://github.com/kyutai-labs/delayed-streams-modeling](https://github.com/kyutai-labs/delayed-streams-modeling) which is not implemented here.
 I made this version as it can generate large ammounts quickly and at acceptable quality for my use cases.
 The model outputs at 24000Hz, some post processing can improve it if needed.
 
@@ -79,3 +79,14 @@ This custom node utilizes the Kyutai TTS model.
 *   **Original Moshi Source:** [https://github.com/kyutai-labs/moshi/tree/main/moshi](https://github.com/kyutai-labs/moshi/tree/main/moshi)
 *   **Kyutai TTS Model (1.6B en_fr):** [https://huggingface.co/kyutai/tts-1.6b-en_fr](https://huggingface.co/kyutai/tts-1.6b-en_fr)
 *   **Kyutai TTS Voice Models:** [https://huggingface.co/kyutai/tts-voices](https://huggingface.co/kyutai/tts-voices)
+
+## Citation
+
+@techreport{kyutai2024moshi,
+    author = {Alexandre D\'efossez and Laurent Mazar\'e and Manu Orsini and Am\'elie Royer and Patrick P\'erez and Herv\'e J\'egou and Edouard Grave and Neil Zeghidour},
+    title = {Moshi: a speech-text foundation model for real-time dialogue},
+    institution = {Kyutai},
+    year={2024},
+    month={September},
+    url={http://kyutai.org/Moshi.pdf},
+}
